@@ -26,7 +26,7 @@
 }
 
 .perfil__foto{
-	width: 50px;
+	width: 100%;
 }
 
 .perfil__nombres{
@@ -34,6 +34,7 @@
 	font-size: 20px;
 	margin-left: .5em; 
 	width: 250px;
+	font-family: 'Pacifico', cursive;
 }
 
 .perfil__nombres, .perfil__circulo {
@@ -52,6 +53,7 @@
 
 .informacion__titulo{
 	font-size: 18px;
+	font-family: 'Pacifico', cursive;
 }
 
 .habilidades{
@@ -67,12 +69,44 @@
 	text-transform: uppercase;
 }
 
-#preguntas legend{
-	padding: 0;
+/* Informacion */
+.proyectos{
+margin-left:  350px;
+padding: 1em;
+display: table;
 }
 
-#preguntas ul{
-	margin: 0;
-	padding: 0;
-	list-style: none;
+.proyecto{
+	display: table-cell;
+	padding: 1em;
+	width: 50%;
+	/* display en forma de celda para la tabla aparentemente
+	with en 50 para disminuir la letra  */
+}
+
+.proyecto__imagen{
+	width: 100%;
+}
+
+.proyecto__titulo{
+	color: #29597C;
+	font-size: 18px;
+	font-family: 'Pacifico', cursive;
+}
+
+.habilidad_proyecto{
+background-color: #29597C;
+	color: #fff;
+	display: inline-block;
+	font-size: 12px;
+	padding: .5em;
+	text-transform: uppercase;	
+}
+
+.proyecto__descripcion{
+	color: #797D7F;
+}
+
+.html{
+	font-family: 'Pacifico', cursive;
 }
